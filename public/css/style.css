@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+    --primary: #713edc;
+}
+
+html {
+    font-family: "Poppins", sans-serif !important;
+}
+
+h1,
+h3,
+h5 {
+    color: #38105e !important;
+}
+
+.btn-primary {
+    background: var(--primary) !important;
+}
+
+.btn-outline-primary {
+    border-color: var(--primary) !important;
+}
+
+.btn-outline-primary:hover {
+    border-color: var(--primary) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+header .input-group {
+    position: relative;
+}
+
+header input.form-control {
+    padding-left: 40px !important;
+}
+
+header .input-group-text {
+    position: absolute;
+    z-index: 10;
+    background: transparent !important;
+    border: none !important;
+}
